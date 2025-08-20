@@ -7,7 +7,7 @@ anime({
   easing: 'linear'
 });
 
-const [ $time, $count ] = utils.$('.value');
+const [ $time, $count ] = document.querySelectorAll('.value');
 
 createTimer({
   duration: 1000,
